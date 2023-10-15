@@ -16,10 +16,24 @@ title: AdvisorLens
 
 {{% blocks/lead color="orange" %}}
 # How AdvisorLens Works
+
+**Say goodbye to generic advice; say hello to tailored insights**
+
+-------
+
+AdvisorLens is a neuro-symbolic AI online conversation platform that offers **explainable insights**, advice, or information in a focused manner. 
+
+Every answer provided **traces back to factual sources** learned from the documents you provide. There are no limits to the number of documents that build up the AdvisorLens knowledge base. 
+
+AdvisorLens uses new LLM technologies for a professional, human-friendly **native-language dialogue**.
+
+-------
+
 {{< /blocks/lead >}}
 
 
 {{% blocks/section color="orange" type="row" %}}
+
 
 {{% blocks/feature  title="Fact-Based Insights" %}}
 Receive accurate, fact-based answers sourced directly from your private documents.
@@ -27,7 +41,7 @@ AdvisorLens is able to extract the knowledge from your **PDF files**, **mails**,
 {{% /blocks/feature %}}
 
 {{% blocks/feature  title="Unlimited Knowledge" %}}
-Benefit from an ever-expanding knowledge base. There's no cap on the number of documents that contribute to AdvisorLens, ensuring you get the most comprehensive and up-to-date information.
+Benefit from an ever-expanding knowledge base. There's **no cap on the number of documents** that contribute to AdvisorLens, ensuring you get the most comprehensive and up-to-date information.
 {{% /blocks/feature %}}
 
 {{% blocks/feature  title="Cutting edge technology" %}}
