@@ -7,39 +7,12 @@ title: AdvisorLens
 <p class="lead mt-5">Your Gateway to Informed Conversations!
 </p>
 {{< blocks/link-down color="info" >}}
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="docs/about">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/docs">
   Start now <i class="fab fa-github ms-2 "></i>
 </a>
 {{< /blocks/cover >}}
 
 
-
-
-
-{{% blocks/lead color="primary" %}}
-# Why Choose AdvisorLens?
-
-Say goodbye to generic advice; say hello to tailored insights.
-
-{{< /blocks/lead >}}
-
-
-
-{{% blocks/section color="primary" type="row" %}}
-
-{{% blocks/feature  title="Unique Perspectives"   %}}
-Our platform delves into a wealth of private documents, offering you a perspective that's as unique as your needs. Every answer provided is rooted in factual information sourced directly from your extensive document repository. 
-{{% /blocks/feature %}}
-
-{{% blocks/feature  title="Unlimited Knowledge"   %}}
-At AdvisorLens, there are no limits. We believe in the power of knowledge, which is why our knowledge base constantly expands. The more reference documents you have, the more robust and informed our conversations become.
-{{% /blocks/feature %}}
-
-{{% blocks/feature  title="Professional Human-Friendly Dialogue"   %}}
-We understand the importance of a professional yet human touch. AdvisorLens seamlessly blends artificial intelligence with human-friendly dialogue. Our platform leverages state-of-the-art LLM technologies, ensuring every conversation feels natural and insightful.
-{{% /blocks/feature %}}
-
-{{% /blocks/section %}}
 
 {{% blocks/lead color="orange" %}}
 # How AdvisorLens Works
