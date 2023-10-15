@@ -96,6 +96,7 @@ See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/instal
 
 Or you may be confronted with the following error:
 
+
 ```console
 $ hugo server
 
