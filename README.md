@@ -1,4 +1,4 @@
-# 75.2.60.5 web site
+# AdvisorLens web site
 
 thi repository contains the public web site for AdvisorLens platform
 It is based on [Docsy][https://www.docsy.dev/] with the [Docsy example](https://github.com/google/docsy-example) as template.
@@ -18,7 +18,7 @@ github.com/google/docsy/dependencies@v0.7.1 github.com/FortAwesome/Font-Awesome@
 
 You can find detailed theme instructions in the [Docsy user guide][].
 
-This project is hosted on [Netlify][https://netlify.com] at [ezclassifier.com][https://ezclassifier.com/].
+This project is hosted on [Netlify][https://netlify.com] at [AdvisorLens.com][https://AdvisorLens.com/].
 You can view deploy logs from the [deploy section of the project's Netlify
 dashboard][deploys], or this [alternate dashboard][https://app.netlify.com/sites/goldydocs/deploys].
 

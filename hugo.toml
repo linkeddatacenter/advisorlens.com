@@ -64,15 +64,15 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "EZClassifier"
-description = "An easy-to-use general-purpose classifier"
+title = "AdvisorLens"
+description = "A new AI platform trained by your documents"
 
 #[languages.it]
 #languageName ="Italiano"
 #contentDir = "content/it"
 #[languages.it.params]
-#title = "EZClassifier"
-#description = "Un classificatore universale semplice da usare"
+#title = "AdvisorLens"
+#description = "A new AI platform trained by your document"
 #time_format_default = "02.01.2006"
 #time_format_blog = "02.01.2006"
 
@@ -121,7 +121,7 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/linkeddatacenter/ezclassifier.com"
+github_repo = "https://github.com/linkeddatacenter/advisorlens.com"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
