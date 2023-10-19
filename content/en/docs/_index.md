@@ -10,14 +10,6 @@ AdvisorLens is a neuro-symbolic AI online conversation platform that offers  exp
 It could be used to various industries, such as financial advice, business consulting, career guidance, or even personal development.
 
 
-**Why Choose AdvisorLens?**
-
-* **Unique Perspectives:** Our platform delves into a wealth of private documents, offering you a perspective that's as unique as your needs. Every answer provided is rooted in factual information sourced directly from your extensive document repository. 
-
-* **Infinite Knowledge:** At AdvisorLens, there are no limits. We believe in the power of knowledge, which is why our knowledge base constantly expands. The more reference documents you have, the more robust and informed our conversations become.
-
-* **Professional Human-Friendly Dialogue:** We understand the importance of a professional yet human touch. AdvisorLens seamlessly blends artificial intelligence with human-friendly dialogue. Our platform leverages state-of-the-art LLM technologies, ensuring every conversation feels natural and insightful.
-
 **Join the Conversation:**
 
 Ready to embark on a journey where every dialogue is enlightening and every answer is rooted in facts? Join AdvisorLens today and experience the difference a knowledgeable conversation can make.
