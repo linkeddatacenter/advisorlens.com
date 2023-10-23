@@ -34,7 +34,7 @@ model -> kb : Store
 model -> kb : Search
 
 questions --> prompt
-kb --> prompt : most relevant documents
+kb --> prompt : relevant data
 
 prompt -> LLM
 LLM -> answers
