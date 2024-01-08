@@ -6,9 +6,7 @@ weight: 15
 
 AdvisorLens is a innovative implementation of neuro-symbolic AI platform that operates in two phases: Semantic information retrieval and neural content generation.
 
-In the semantic search phase:
-
-Algorithms actively search for and retrieve relevant information based on the user’s prompt by traversing a knowledge graph. This retrieved information is the basis for generating coherent and contextually relevant responses according with new LLM models and algorithms.
+In the semantic search phase theorem solvers actively search for and retrieve relevant information based on the user’s prompt by traversing a knowledge graph. This retrieved information is the basis for generating coherent and contextually relevant responses according with new LLM models and algorithms.
 
 AdvisorLens works both in open and close domain enterprise settings, a more restricted set of trusted sources is typically used to enhance the security and reliability of internal knowledge. For example, AdvisorLens system can look for:
 - Current contextual factors, such as real-time weather updates and the user’s precise location
@@ -23,7 +21,7 @@ After retrieving the relevant information, a generative language model, such as 
 database "Proprietary data" as data
 actor "User Question" as questions
 node "AdvisorLens Model" as model
-database "Knowlege graph db" as kb #line.dashed
+database "Knowledge graph db" as kb #line.dashed
 file "Semantic Context" as prompt #line.dashed
 agent LLM
 file "answers"
@@ -40,7 +38,7 @@ prompt -> LLM
 LLM -> answers
 ```
 
-The image shows how AdvisorLens works: the AdvisorLens model parses proprietary data, detect semantics and store it in a knowledge graph. Then the model receives the user question and search it in the semanti knowledge base. It retrieves the top relevant documents and prompt the original question and information to LLM which leads LLM to generate an accurate answer.
+The image shows how AdvisorLens works: the AdvisorLens model parses proprietary data, detect semantics and store it in a knowledge graph. Then the model receives the user question and search it in the semantic knowledge base. It retrieves the top relevant documents and prompt the original question and information to LLM which leads LLM to generate an accurate answer.
 
 
 AdvisorLens use two systems to obtain external data:
