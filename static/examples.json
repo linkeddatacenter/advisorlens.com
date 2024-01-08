@@ -1,0 +1,34 @@
+{
+    "headline": "My document title",
+    "isBasedOn": {
+        "url":"http://example.com/resource.pdf",
+        "encodingFormat": "application/pdf",
+        "datePublished": "2002-05-30T09:00:00"
+    },
+    "keywords": [ "tag1", "tag2" ],
+    "inLanguage": "en",
+    "sizeInTokens": 3000,
+    "sizeInPages": 5,
+    "hasChunk": [
+        {
+            "chunkText": "here the first mandatory chunk text.",
+            "chunkEpilogue": "here the second...",
+            "extent": "pp1-1",
+            "hasVectorEmbedding": {
+                "@type": "model-ada-1234",
+                "vector": "[-1231.22,321.434,1231123.1]"
+            }
+        },
+        {
+            "chunkPrologue": "... first mandatory chunk text.",
+            "chunkText": "here the second chunk text",
+            "extent": "pp3-4",
+            "hasVectorEmbedding": {
+                "@type": "model-ada-1234",
+                "vector": "[123231.22,-212.434,23.1123123]"
+            }
+        }
+    ]  
+}
+
+

@@ -1,0 +1,38 @@
+@prefix : <https://schema.advisorlens.com/> .
+@prefix schema: <https://schema.org/> .
+@prefix dct: <http://purl.org/dc/terms/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix uuid: <urn:uuid:> .
+
+
+<http://example.com/resource.pdf> a schema:TextDigitalDocument ;
+    schema:encodingFormat "application/pdf" ;
+    schema:datePublished "2002-05-30T09:00:00"^^xsd:dateTime .
+
+uuid:fc3ea93e-0416-4694-ad1e-36d4b5904451 a :ChunkedText ;
+    schema:headline "My document title" ;
+    schema:isBasedOn <http://example.com/resource.pdf> ;
+    schema:keywords "tag1" , "tag2" ;
+    schema:inLanguage "en" ;
+    :sizeInTokens 3000 ;
+    :sizeInPages 5 ;
+    :hasChunk uuid:f228ae37-f0d0-4ace-8612-d44e14c7bd99 , uuid:f1f37793-9f5f-4ef2-b22e-303520c2b68d .
+
+uuid:bb2ed5ae-1fb7-423d-a915-282e5bf09800 a :model-ada-1234 ;
+    :vectorizes uuid:f228ae37-f0d0-4ace-8612-d44e14c7bd99 ;
+    :vector "[123231.22,-212.434,23.1123123]"^^:vectorAsString .
+
+uuid:e575ef39-5a38-43c8-a9f7-13a2054cac9a a :model-ada-1234 ;
+    :vectorizes uuid:f1f37793-9f5f-4ef2-b22e-303520c2b68d ;
+    :vector "[123231.22,-212.434,23.1123123]"^^:vectorAsString .
+
+
+uuid:f1f37793-9f5f-4ef2-b22e-303520c2b68d a :TextChunk ;
+    :chunkPrologue "... first mandatory chunk text." ;
+    :chunkText "here the second chunk text" ;
+    :extent :pp1-1 .
+
+uuid:f228ae37-f0d0-4ace-8612-d44e14c7bd99 a :TextChunk ;
+    :chunkText "here the first mandatory chunk text." ;
+    :chunkEpilogue "here the second..." ;
+    :extent :pp3-4 .

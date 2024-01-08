@@ -4,11 +4,11 @@ description: Learn how How do AdvisorLens work?
 weight: 15
 ---
 
-AdvisorLens is a innovative implementaton of neuro-symbolic AI platform that operates in two phases: Retrieval and content generation.
+AdvisorLens is a innovative implementation of neuro-symbolic AI platform that operates in two phases: Semantic information retrieval and neural content generation.
 
-In the retrieval phase:
+In the semantic search phase:
 
-Algorithms actively search for and retrieve relevant information based on the user’s prompt. This retrieved information is the basis for generating coherent and contextually relevant responses.
+Algorithms actively search for and retrieve relevant information based on the user’s prompt by traversing a knowledge graph. This retrieved information is the basis for generating coherent and contextually relevant responses according with new LLM models and algorithms.
 
 AdvisorLens works both in open and close domain enterprise settings, a more restricted set of trusted sources is typically used to enhance the security and reliability of internal knowledge. For example, AdvisorLens system can look for:
 - Current contextual factors, such as real-time weather updates and the user’s precise location
