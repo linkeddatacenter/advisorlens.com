@@ -4,12 +4,9 @@ title: AdvisorLens
 
 {{< blocks/cover title="Welcome to AdvisorLens" image_anchor="top" height="full" >}}
 
-<p class="lead mt-5">Your Gateway to Informed Conversations!
-</p>
+<p class="lead mt-5">Your Gateway to Informed Conversations!</p>
 {{< blocks/link-down color="info" >}}
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="/docs/how-it-works>
-  How it works<i class="fab fa-github ms-2 "></i>
-</a>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/docs/how-it-works">How it works  <i class="fab fa-rocket ms-2"></i></a>
 {{< /blocks/cover >}}
 
 
